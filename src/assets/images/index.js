@@ -1,15 +1,15 @@
 import hero from './hero.jpg'
 import meta from './meta.png'
 import shopify from './shopify.png'
-import starbucks from './starbucks.png'
-import tesla from './tesla.png'
+import freecodecamp from './freecodecamp.png'
+import sheCodes from './sheCodes.png'
 import logo from './logo.svg'
 
 export {
     hero,
     meta,
     shopify,
-    starbucks,
-    tesla,
+    freecodecamp,
+    sheCodes,
     logo
 }

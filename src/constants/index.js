@@ -1,6 +1,9 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { meta, shopify, sheCodes, freecodecamp } from "../assets/images";
 import {
-    car,
+    sun,
+    rain,
+    dictionary,
+    pinguin,
     contact,
     css,
     estate,
@@ -15,14 +18,11 @@ import {
     mui,
     nextjs,
     nodejs,
-    pricewise,
     react,
     redux,
     sass,
-    snapgram,
     summiz,
     tailwindcss,
-    threads,
     typescript
 } from "../assets/icons";
 
@@ -109,58 +109,52 @@ export const skills = [
     }
 ];
 
-export const experiences = [
+export const certificates = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
+        name: "Responsive Web Design Certification",
+        organization: "FreeCodeCamp",
+        icon: freecodecamp,
+        iconBg: "#0A0A23",
+        imageUrl: "https://i.ibb.co/ckFSJ2N/Captura-de-ecr-2024-05-16-100856.png",
+        date: "March 26, 2024",
+        link: "https://www.freecodecamp.org/certification/AlexandraHockett/responsive-web-design",
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
+        name: "Advanced React Development",
+        organization: "SheCodes",
+        icon: sheCodes,
+        iconBg: "#F5F2FE",
+        imageUrl: "https://s3.amazonaws.com/shecodesio-production/students/certificates/000/049/007/original/49007.png?1713538731",
+        date: "September 2, 2022",
+        link:"https://www.shecodes.io/certificates/44fc432a69159fa02bae45245ef7af0d"
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
+        name: "Responsive Web Development",
+        organization: "SheCodes",
+        icon: sheCodes,
+        iconBg: "#F5F2FE",
+        imageUrl: "https://s3.amazonaws.com/shecodesio-production/students/certificates/000/042/017/original/42017.png?1713537710",
+        date: "October 24, 2021",
+        link:"https://www.shecodes.io/certificates/bcfcc457518b7725d6541e00a418d712"
+    
     },
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
+        name: "Web Development",
+        organization: "SheCodes",
+        icon: sheCodes,
+        iconBg: "#F5F2FE",
+        imageUrl: "https://s3.amazonaws.com/shecodesio-production/students/certificates/000/035/608/original/35608.png?1713554952",
+        date: "August 17, 2021",
+        link:"https://www.shecodes.io/certificates/f92923ede3cb550b423dbe1cac2f4f6d"
+    },
+    {
+        name: "Introduction to Coding",
+        organization: "SheCodes",
+        icon: sheCodes,
+        iconBg: "#F5F2FE",
+        imageUrl: "https://s3.amazonaws.com/shecodesio-production/students/certificates/000/034/246/original/34246.png?1713536544",
+        date: "June 23, 2021",
+        link:"https://www.shecodes.io/certificates/67bf8e29a72f0ed3fbbc8182892c91ba"
     },
 ];
 
@@ -184,32 +178,32 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: pricewise,
+        iconUrl: pinguin,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'My cute penguin',
+        description: 'Created a responsive webpage, complete with an intricately designed penguin image entirely crafted using HTML and CSS.',
+        link: 'https://mycutepenguin.netlify.app',
     },
     {
-        iconUrl: threads,
+        iconUrl: dictionary,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'Dictionary React APP',
+        description: 'Developed a Dictionary App using React.',
+        link: 'https://trusting-colden-46af2a.netlify.app/',
     },
     {
-        iconUrl: car,
+        iconUrl: sun,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        name: 'Weather App',
+        description: 'Developed a weather application using HTML, CSS, and JavaScript.',
+        link: 'https://theweatherhockettapp.netlify.app/',
     },
     {
-        iconUrl: snapgram,
+        iconUrl: rain,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: 'Weather App (React)',
+        description: 'Built a weather application utilizing React.',
+        link: 'https://eloquent-payne-ad85ea.netlify.app/',
     },
     {
         iconUrl: estate,

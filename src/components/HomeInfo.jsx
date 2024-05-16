@@ -23,14 +23,14 @@ const renderContent = {
   ),
   2:(
     <InfoBox 
-      text="Little text to write about me example on the website :worked with many companies and picked up many skills along the way"
+      text="Through dedicated workshops and intensive classes, I have gained substantial knowledge and honed a variety of skills that have enabled me to develop the projects featured in my portfolio. My commitment to learning and passion for this field are reflected in the quality and creativity of my work"
       link="/about"
       btnText="Learn more"
     />
   ),
   3:(
     <InfoBox 
-      text="Little text to write about me example on the website :Led multiple projects to success over the years.Curious about the impact?"
+      text="Driven by a passion for learning, I have successfully completed numerous projects through hands-on workshops and comprehensive classes. Curious about the impact? Explore my portfolio to see the results of my dedication and creativity"
       link="/projects"
       btnText="Visit my portfolio"
     />
@@ -38,7 +38,7 @@ const renderContent = {
   ),
   4:(
     <InfoBox 
-      text="Little text to write about me example on the website :Need a project done or looking for a dev? I'm just a few keystrokes away"
+      text="Looking for someone to bring your project to life or need a developer with fresh insights? I'm just a message away, ready to turn your ideas into reality?"
       link="/contact"
       btnText="Let's talk"
     />
